@@ -25,11 +25,11 @@ public class MainActivity extends AppCompatActivity {
         view.setVisibility(View.INVISIBLE);
         licznik++;
         if(licznik == 4){
-            textViewPolecenie.setText("Brawo, to jest flaga Polski!");
+            textViewPolecenie.setText(R.string.podsumowanie);
         }
     }
 
     public void zlaOdpowiedz(View view) {
-        Toast.makeText(this, "Ten kolor jest we fladze Polski", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, R.string.info, Toast.LENGTH_SHORT).show();
     }
 }

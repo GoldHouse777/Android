@@ -13,7 +13,7 @@
         android:id="@+id/textViewPolecenie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Wybierz, których kolorów nie ma w fladze Polski"
+        android:text="@string/polecenie"
         android:textSize="24sp"
         android:textColor="@color/white"
         android:textAlignment="center"
@@ -28,7 +28,7 @@
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="24dp"
+            android:layout_margin="@dimen/margines_button"
             android:onClick="dobraOdpowiedz"/>
 
         <Button
@@ -36,7 +36,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/white"
-            android:layout_margin="24dp"
+            android:layout_margin="@dimen/margines_button"
             android:onClick="zlaOdpowiedz"/>
 
         <Button
@@ -44,7 +44,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/black"
-            android:layout_margin="24dp"
+            android:layout_margin="@dimen/margines_button"
             android:onClick="dobraOdpowiedz"/>
 
     </LinearLayout>
@@ -59,7 +59,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="#654"
-            android:layout_margin="24dp"
+            android:layout_margin="@dimen/margines_button"
             android:onClick="dobraOdpowiedz"
             />
 
@@ -68,7 +68,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="#FF0000"
-            android:layout_margin="24dp"
+            android:layout_margin="@dimen/margines_button"
             android:onClick="zlaOdpowiedz"/>
 
         <Button
@@ -76,7 +76,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="#FF8975"
-            android:layout_margin="24dp"
+            android:layout_margin="@dimen/margines_button"
             android:onClick="dobraOdpowiedz"
             />
     </LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flags</string>
+    <string name="polecenie">Choose, which colors is in Polish flag</string>
+    <string name="info">This color is in Polish flag</string>
+    <string name="podsumowanie">Congratulations! This is the Polish flag</string>
+</resources>
